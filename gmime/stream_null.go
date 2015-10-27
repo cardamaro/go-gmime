@@ -8,9 +8,7 @@ package gmime
 */
 import "C"
 
-import (
-	"unsafe"
-)
+import "unsafe"
 
 type NullStream interface {
 	Stream
